@@ -1,0 +1,40 @@
+@import "../../../common/lib/weui.scss";
+
+.wrapper {
+  padding: 10px;
+}
+
+.iconfont {
+  display: inline-block;
+  padding: 16px 16px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-bottom: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+.ql-container {
+  box-sizing: border-box;
+  padding: 24px 30px;
+  width: 100%;
+  min-height: 30vh;
+  height: auto;
+  /* border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; */
+  background: #fff;
+  margin-top: 40px;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.ql-active {
+  color: #06c;
+}

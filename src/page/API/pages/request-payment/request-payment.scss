@@ -1,0 +1,26 @@
+.page-section{
+  width: auto;
+  margin: 30px;
+  padding: 64px 30px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 28px;
+}
+.desc{
+  color: #B2B2B2;
+}
+.price{
+  margin-top: 30px;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+  font-size: 78px;
+  line-height: 1;
+}
+.price:before{
+  content: "¥";
+  position: absolute;
+  font-size: 40px;
+  top: 8px;
+  left: -40px;
+}

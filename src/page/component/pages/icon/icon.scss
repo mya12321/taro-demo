@@ -1,0 +1,29 @@
+.icon-box{
+  margin-bottom: 40px;
+  padding: 0 75px;
+  display: flex;
+  align-items: center;
+}
+.icon-box-img{
+  margin-right: 46px;
+}
+.icon-box-ctn{
+  flex-shrink: 100;
+}
+.icon-box-title{
+  font-size: 34px;
+}
+.icon-box-desc{
+  margin-top: 12px;
+  font-size: 26px;
+  color: #888;
+}
+
+.icon-small-wrp{
+  margin-right: 46px;
+  width: 186px;
+  height: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

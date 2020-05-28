@@ -1,6 +1,6 @@
 const config = {
-  projectName: 'taro-demo',
-  date: '2020-5-5',
+  projectName: 'taroConvert',
+  date: '2020-5-26',
   designWidth: 750,
   deviceRatio: {
     '640': 2.34 / 2,
@@ -8,7 +8,13 @@ const config = {
     '828': 1.81 / 2
   },
   sourceRoot: 'src',
-  outputRoot: 'dist',
+  outputRoot: `dist/${process.env.TARO_ENV}`,
+  copy: {
+    patterns: [
+      {from: 'sitemap.json', to: 'dist/weapp/sitemap.json'},
+      {from: 'src/workers/', to: 'dist/weapp/workers/'},
+    ],
+  },
   babel: {
     sourceMap: true,
     presets: [

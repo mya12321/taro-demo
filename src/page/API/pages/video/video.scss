@@ -1,0 +1,12 @@
+@import "../../../common/lib/weui.scss";
+
+.page-body-info {
+  display: flex;
+  margin-top: 40px;
+  padding: 0;
+  height: 360px;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  align-items: center;
+  justify-content: center;
+}

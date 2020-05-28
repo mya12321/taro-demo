@@ -1,0 +1,14 @@
+@import '../common.scss';
+
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 120px;
+    text-align: center;
+}

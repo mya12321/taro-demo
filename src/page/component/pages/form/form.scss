@@ -1,0 +1,14 @@
+@import "../../../common/lib/weui.scss";
+
+label {
+  display: inline-block;
+  min-width: 270px;
+  margin-right: 20px;
+}
+form{
+  width: 100%;
+}
+.picker-text {
+  margin-left: 20px;
+  position: relative;
+}

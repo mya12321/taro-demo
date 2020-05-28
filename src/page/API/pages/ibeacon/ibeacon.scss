@@ -1,0 +1,25 @@
+@import "../../../common/lib/weui.scss";
+
+.page-body-info {
+  margin-top: 50px;
+  padding: 30px 60px;
+  width: auto;
+}
+
+.devices_summary {
+  padding: 10px;
+  font-size: 30px;
+}
+.device_list {
+  height: 300px;
+  border-radius: 5px;
+  flex: 1;
+}
+.device_item {
+  border-bottom: 1px solid #EEE;
+  padding: 10px;
+  color: #666;
+}
+.device_item_hover {
+  background-color: rgba(0, 0, 0, .1);
+}

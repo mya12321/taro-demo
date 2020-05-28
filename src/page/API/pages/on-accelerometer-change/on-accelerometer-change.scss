@@ -1,0 +1,33 @@
+.page-body-xyz {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin-top: 90px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.page-body-canvas {
+  margin-top: 30px;
+  width: 604px;
+  height: 604px;
+  position: relative;
+}
+.page-body-ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 604px;
+  height: 604px;
+}
+.page-body-title {
+  margin-bottom: 0;
+  font-size: 32px;
+  width: 250px;
+}
+.page-body-controls {
+  margin-top: 30px;
+}
+.page-body-controls button {
+  margin-left: 20px;
+  float: left;
+}

@@ -1,0 +1,24 @@
+.page-section {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+.page-body-title {
+  font-size: 60px;
+  line-height: 200px;
+}
+.page-body-text {
+  color: #bbb;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0 0 100px 0;
+  text-align: center;
+}
+.page-body-button {
+  width: 100%;
+}

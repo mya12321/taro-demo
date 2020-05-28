@@ -1,0 +1,13 @@
+var double = function(a) {
+  return 2 * a
+}
+
+var ifSpecialIcon = function(v) {
+  return v === 'arrow' || v === 'back'
+}
+
+module.exports = {
+  double: double,
+
+  ifSpecialIcon: ifSpecialIcon
+}
